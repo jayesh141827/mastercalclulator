@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C3B5C"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="177.58sp"
+        android:layout_height="176.85sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90sp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="177sp"
+            android:layout_height="176sp"
+            android:src="@drawable/img_17"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="335sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="-115sp"
+        android:clickable="true"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="1sp">
+
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:gravity="center"
+            android:hint="Start App"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Click Here  "
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="335sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8sp"
+        android:clickable="true"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="1sp">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:gravity="center"
+            android:hint="About  Us"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Know More "
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14sp"
+
+        android:clickable="true"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="5sp">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Share App"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-55sp"
+        android:clickable="true"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="5sp">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Share App"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

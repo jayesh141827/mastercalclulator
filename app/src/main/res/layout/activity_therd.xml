@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C3B5C"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".therd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/img_16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mutual Fund Calculator"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="165sp"
+                android:layout_height="29sp"
+                android:text="Pricncipal Amount"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3"
+                android:layout_width="160sp"
+                android:layout_height="50sp"
+
+                android:hint="Amount"
+                android:textColorHint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPrincipal"
+                    android:layout_width="160sp"
+                    android:layout_height="50sp"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="165sp"
+                android:layout_height="29sp"
+                android:text="Expected Return in (%)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3"
+                android:layout_width="160sp"
+                android:layout_height="50sp"
+
+                android:hint="25%"
+                android:textColorHint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="165sp"
+                android:layout_height="29sp"
+                android:text="Time Period in (yr)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3"
+                android:layout_width="160sp"
+                android:layout_height="50sp"
+
+                android:hint="05%"
+                android:textColorHint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvClearAll"
+            android:layout_width="165sp"
+            android:layout_height="29sp"
+            android:layout_marginLeft="19sp"
+            android:layout_marginTop="20sp"
+            android:text="Clear all"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="155sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#0C3968"
+            android:text="@string/Calculate" />
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="29sp"
+            android:layout_marginStart="19sp"
+            android:layout_marginTop="33sp"
+            android:text="@string/investment"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvInvested"
+            android:layout_width="90sp"
+            android:layout_height="29sp"
+            android:layout_marginStart="19sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="29sp"
+            android:layout_marginStart="159.1sp"
+            android:layout_marginTop="-60sp"
+            android:text="@string/est_returns"
+            android:textSize="15.5sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvReturns"
+            android:layout_width="90sp"
+            android:layout_height="29sp"
+            android:layout_marginStart="159.1sp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="29sp"
+            android:layout_marginStart="290sp"
+            android:layout_marginTop="-60sp"
+            android:text="@string/totalvalue"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalValue"
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="290sp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

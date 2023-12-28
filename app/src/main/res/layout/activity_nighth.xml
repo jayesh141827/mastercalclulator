@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1C3B5C"
+    android:orientation="vertical"
+    tools:context=".Nighth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/img_16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="About Us"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="177.58sp"
+        android:layout_height="176.85sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="177sp"
+            android:layout_height="176sp"
+            android:src="@drawable/img_17" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="350sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100sp"
+        android:text="All In One - Calculation Tool is a versatile app that simplifies complex calculations. It combines various calculators into a single, user-friendly interface, providing quick and accurate solutions for a wide range of mathematical and practical needs."
+        android:textSize="18sp"
+        android:textColorHint="#82B1FF"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14sp"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="5sp"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Share App"
+            android:textColorHint="#82B1FF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140sp"
+        android:layout_height="53sp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-55sp"
+        app:cardBackgroundColor="#1C3B5C"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="5sp"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="55sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:hint="Share App"
+            android:textColorHint="#82B1FF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="investment" type="id" />
+    <item name="returns" type="id" />
+    <item name="calculateButton" type="id" />
+    <item name="totalValue" type="id" />
+    <item name="textedit1" type="id" />
+    <item name="textedit2" type="id" />
+    <item name="textedit3" type="id" />
+    <item name="txtans" type="id" />
+    <item name="txt2" type="id" />
+    <item name="btnCALULATE" type="id" />
+    <item name="back" type="id" />
+    <item name="etPrincipal" type="id" />
+    <item name="priceAfterDiscountEditText" type="id" />
+    <item name="totalMarks" type="id" />
+    <item name="loanAmount" type="id" />
+    <item name="interestRate" type="id" />
+    <item name="loanTenure" type="id" />
+    <item name="interestAmount" type="id" />
+    <item name="totalInterest" type="id" />
+    <item name="totalPayableAmount" type="id" />
+    <item name="originalPriceEditText" type="id" />
+    <item name="discountEditText" type="id" />
+    <item name="originalPriceTextView" type="id" />
+    <item name="savedAmountTextView" type="id" />
+    <item name="resultTextView" type="id" />
+    <item name="inputMarksEditText" type="id" />
+    <item name="squareOrHour" type="id" />
+    <item name="result" type="id" />
+</resources>

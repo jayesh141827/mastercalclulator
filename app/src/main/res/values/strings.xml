@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mastercalclulator</string>
+    <string name="calculate">Calculate</string>
+    <string name="totalvalue">TotalValue</string>
+    <string name="est_returns">Est. Returns</string>
+    <string name="investment">Investment</string>
+    <string name="Calculate">calculate</string>
+    <string name="original_price_result">\n</string>
+    <string name="saved_amount_result" />
+    <string name="invalid_input_error" />
+    <string name="total_time_in_years">Total Time in Years</string>
+    <string name="square_or_hour">Square or hour</string>
+</resources>
